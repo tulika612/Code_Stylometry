@@ -21,4 +21,14 @@
 
 <a href='https://dl.acm.org/doi/10.1145/3457682.3457709'> Link to our research paper</a>
 
-<h3>Screenshots</h3>
+ Screenshots
+ ![Image 4](/Screenshots/Screenshot4.png) <br/> 
+ ![Image 5](/Screenshots/Screenshot5.png) <br/>
+ ![Image 6](/Screenshots/Screenshot6.png) <br/>
+ ![Image 7](/Screenshots/Screenshot7.png) <br/>
+ ![Image 1](/Screenshots/Screenshot1.png) <br/>
+ ![Image 2](/Screenshots/Screenshot2.png) <br/>
+ ![Image 3](/Screenshots/Screenshot3.png) <br/>
+ 
+ 
+ 
