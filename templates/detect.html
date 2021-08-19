@@ -1,0 +1,66 @@
+<!--<a href="/exec" class="button"> This link will invoke Parse method </a> -->
+<html>
+<body>
+<style>
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background: #353535;
+  color: #FFF;
+}
+.jumbotron h1 {
+  color: #353535;
+}
+
+
+footer {
+  margin-bottom: 0 !important;
+  margin-top: 80px;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+span.icon {
+  margin: 0 5px;
+  color: #D64541;
+}
+
+.uploadfile{
+  color='white';
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 100px;
+}
+</style>
+<div class="jumbotron text-center">
+
+  <div class="container">
+
+    <h1>Automatic Author Detection</h1>
+    <p style="color:#888;">Code Sylometry</p>
+
+  </div>
+</div>
+<form action = "/success"method = "post" enctype="multipart/form-data">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Select file to upload</h2>
+      </div>
+    </div>
+    <br>
+    <center><input class='uploadfile' type="file" value="Upload" name="fileToUpload" id="fileToUpload" size="60" style="color: white;"></center>
+    <br>
+    <br>
+    <center>
+      <button type="submit"  style="background-color: black; padding: 14px 15px; font-size: 20px; letter-spacing: .08em;" >UPLOAD FILE</button>
+    </center>
+</form>
+
+ </div>
+
+</body>
+</html>
